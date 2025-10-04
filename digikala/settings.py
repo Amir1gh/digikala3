@@ -83,7 +83,6 @@ WSGI_APPLICATION = 'digikala.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(conn_max_age=600)
-    )
 }
 
 
